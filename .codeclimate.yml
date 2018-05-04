@@ -53,3 +53,4 @@ plugins:
           mass_threshold: 133
 exclude_patterns:
   - "npm-shrinkwrap.json"
+  - "docs/"

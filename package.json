@@ -1,0 +1,43 @@
+{
+  "name": "arc.microservice-myo",
+  "version": "0.0.1",
+  "description": "A microservice that listens to and reports Myo events.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/cucumber-js",
+    "start": "node index.js",
+    "coverage-test": "nyc --reporter=lcov --reporter=text-lcov cucumber-js -r features/",
+    "coverage-report": "nyc --reporter=lcov --reporter=text-lcov npm test",
+    "docs": "docco index.js & docco support/* & docco support/process/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altereagle/arc.microservice-myo.git"
+  },
+  "keywords": [
+    "myo",
+    "microservice",
+    "arcms"
+  ],
+  "author": "Kendell Joseph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/altereagle/arc.microservice-myo/issues"
+  },
+  "homepage": "https://github.com/altereagle/arc.microservice-myo#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.3",
+    "nyc": "^11.7.1"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "myo": "^3.0.0",
+    "ws": "^5.1.1"
+  }
+}

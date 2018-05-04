@@ -25,4 +25,4 @@ npm install arc.microservice-myo
 
 | JavaScript |
 | --- |
-| /[index.js](https:/altereagle.github.io/arc.microservice-myo/) |
+| /[index.js](https://altereagle.github.io/arc.microservice-myo/) |

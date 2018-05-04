@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/altereagle/arc.microservice-myo.svg?branch=master)](https://travis-ci.com/altereagle/arc.microservice-myo)
+[![Maintainability](https://api.codeclimate.com/v1/badges/084bfa31d9332927de83/maintainability)](https://codeclimate.com/github/altereagle/arc.microservice-myo/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/084bfa31d9332927de83/test_coverage)](https://codeclimate.com/github/altereagle/arc.microservice-myo/test_coverage)
 # Arc | *microservice*
 ## Myo
 A microservice that listens to and reports Myo events.
@@ -22,4 +25,4 @@ npm install arc.microservice-myo
 
 | JavaScript |
 | --- |
-| /[index.js](https://altereagle.github.io/arc.microservice-myo/) |
+| /[index.js](https:/altereagle.github.io/arc.microservice-myo/) |
